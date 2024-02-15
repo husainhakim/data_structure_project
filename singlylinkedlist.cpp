@@ -189,8 +189,7 @@ int option;
             getline(cin,newbookname);
             cout<<"Enter the name of the author of the new book"<<endl;
             getline(cin,newbookauthor);
-            addabook(start,newbookname,newbookauthor);
-             
+            addabook(start,newbookname,newbookauthor);           
         }
     }
     return 0;
